@@ -16,10 +16,11 @@ cask_args appdir: '~/Applications', require_sha: true
 
 # Taps (Repositories)
 tap 'homebrew/bundle'
-
+tap 'buo/cask-upgrade'
 tap 'homebrew/cask-fonts'
 
 # CLI Utilities  
+brew 'tree'         # Display directories as trees (with optional color/HTML output)
 brew 'git'          # Version controll
 brew 'rsync'        # Fast incremental file transfer
 brew 'htop'         # Cross-platform interactive process viewer 
@@ -37,6 +38,7 @@ cask 'orion'
 cask 'microsoft-edge'
 
 # Programming and Development
+cask 'visual-studio-code'
 cask 'anaconda'   # R and Python environment manager
 cask 'rstudio'    # IDE for R 
 cask 'spyder'     # IDE for Python
@@ -45,29 +47,32 @@ brew 'docker'     # Pack, ship and run any application as a lightweight containe
 
 # Productivity
 cask '1password'
-cask 'microsoft-office'
+cask 'app-cleaner'
+cask 'mendeley-reference-manager'
 cask 'mactex'         # Full TeX Live distribution with GUI applications
 cask 'notion'         # App to write, plan, collaborate, and get organized
 cask 'marta'          # Extensible two-pane file manager
 cask 'skim'           # PDF reader and note-taking application
+cask 'iina'           # Media Player (better than VLC on MacOS)
 cask 'google-drive'
 cask 'coteditor'      # Just a simple plain-text editor
 cask 'the-unarchiver' # File archiver and extractor
+cask 'microsoft-auto-update'
+cask 'microsoft-office'
 cask 'microsoft-teams'
 cask 'zoom'
 
 # Other
-cask 
 cask 'messenger'
 cask 'whatsapp'
 cask 'spotify', args: { require_sha: false } 
 
 # Mac App Store Applications
-mas ''
-mas ''
-mas ''
-
+mas 'Xcode', id: 497799835
+mas 'Magnet', id: 441258766
+mas 'PDF Squeezer' id: 1502111349
 
 # Fonts
 cask 'font-computer-modern'
 
+# END
