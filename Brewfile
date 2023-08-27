@@ -72,7 +72,7 @@ cask 'spotify', args: { require_sha: false }
 # Mac App Store Applications
 mas 'Xcode', id: 497799835
 mas 'Magnet', id: 441258766
-mas 'PDF Squeezer' id: 1502111349
+mas 'PDF Squeezer', id: 1502111349
 
 # Fonts
 cask 'font-computer-modern'
