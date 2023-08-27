@@ -15,7 +15,7 @@ REMOTE_BREWFILE="https://raw.githubusercontent.com/adsiddiq/MacOS_Bootstrap/main
 # General config
 PARAMS=$* # User-specified parameters
 CURRENT_DIR=$(cd "$(dirname ${BASH_SOURCE[0]})" && pwd)
-PROMPT_TIMEOUT=15 # When user is prompted for input, skip after x seconds
+PROMPT_TIMEOUT=60 # When user is prompted for input, skip after x seconds
 START_TIME=`date +%s` # Start timer
 
 # Color Variables
