@@ -16,6 +16,8 @@ cask_args appdir: '~/Applications', require_sha: true
 
 # Taps (Repositories)
 tap 'homebrew/bundle'
+tap 'homebrew/core'
+tap 'homebrew/services'
 tap 'buo/cask-upgrade'
 tap 'homebrew/cask-fonts'
 
