@@ -10,7 +10,7 @@
 
 # User-specified config
 BREWFILE_LOCATION="${HOME}/.Brewfile"
-REMOTE_BREWFILE="https://raw.githubusercontent.com/adsiddiq/Brewfile/HEAD/Brewfile"
+REMOTE_BREWFILE="https://raw.githubusercontent.com/adsiddiq/MacOS_Bootstrap/main/Brewfile"
 
 # General config
 PARAMS=$* # User-specified parameters
