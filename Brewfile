@@ -35,7 +35,7 @@ brew 'mas'          # Mac App Store command-line interface (Used for mas apps be
 
 # Web Browsers
 cask 'firefox'
-cask 'google-chrome'
+cask 'google-chrome', args: { require_sha: false } 
 cask 'orion'
 cask 'microsoft-edge'
 
@@ -49,14 +49,14 @@ brew 'docker'     # Pack, ship and run any application as a lightweight containe
 
 # Productivity
 cask '1password'
-cask 'app-cleaner'
+cask 'app-cleaner', args: { require_sha: false } 
 cask 'mendeley-reference-manager'
 cask 'mactex'         # Full TeX Live distribution with GUI applications
 cask 'notion'         # App to write, plan, collaborate, and get organized
 cask 'marta'          # Extensible two-pane file manager
 cask 'skim'           # PDF reader and note-taking application
 cask 'iina'           # Media Player (better than VLC on MacOS)
-cask 'google-drive'
+cask 'google-drive', args: { require_sha: false } 
 cask 'coteditor'      # Just a simple plain-text editor
 cask 'the-unarchiver' # File archiver and extractor
 cask 'microsoft-auto-update'
@@ -65,7 +65,7 @@ cask 'microsoft-teams'
 cask 'zoom'
 
 # Other
-cask 'messenger'
+cask 'messenger', args: { require_sha: false } 
 cask 'whatsapp'
 cask 'spotify', args: { require_sha: false } 
 
